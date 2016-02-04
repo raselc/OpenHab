@@ -1,0 +1,5 @@
+Group Lights
+Group Temp
+
+Switch bedLight "Bed Light" <light> (Lights)
+Number temp "Current temperature" (Temp) 

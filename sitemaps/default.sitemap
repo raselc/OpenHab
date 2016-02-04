@@ -1,0 +1,7 @@
+sitemap default label="Welcome to First Page of SmA" {
+	Frame {
+		
+		Group item= Lights label= "All Light" icon= "switch"
+		Group item= Temp label= "Temperature" icon= "temperature"
+	}
+}
