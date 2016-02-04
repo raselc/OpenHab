@@ -2,4 +2,6 @@ Group Lights
 Group Temp
 
 Switch bedLight "Bed Light" <light> (Lights)
-Number temp "Current temperature" (Temp) 
+//Number temp "Current temperature" (Temp) 
+
+Number TestTemperature "Temperature [%.1f F]" <temperature> (Temp) {mqtt="<[myid:home/temperature:state:default]"}
