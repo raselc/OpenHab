@@ -1,0 +1,3 @@
+Group Gates
+
+Switch gate "Main Gate" (Gates) {tcp=">[ON:127.0.0.1:25010:'on_cmd)'],>[OFF:127.0.0.1:25010:'MAP(tcpmap.map)']"}
