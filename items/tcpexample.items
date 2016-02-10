@@ -1,5 +1,5 @@
-Group Gates
+Group Message
 
 //Switch gate "Main Gate" (Gates) {tcp=">[ON:127.0.0.1:25010:'on_cmd)'],>[OFF:127.0.0.1:25010:'MAP(tcpmap.map)']"}
-String tcp "Send TCP: [%s]" (Gates) {tcp= ">[127.0.0.1:25010:'Hello From OPenHab']"}
-String rtcp "Receive TCP:  [%s]" (Gates) {tcp="<[127.0.0.1:25011:'REGEX((.*))']"}
+//String tcp "Send TCP: " (Gates) {tcp= ">[127.0.0.1:25010:'Hello From OPenHab']"}
+String rtcp "Receive TCP:  [%s]" (Message) {tcp="<[127.0.0.1:25011:'REGEX((.*))']"}

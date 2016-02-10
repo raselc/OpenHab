@@ -1,6 +1,6 @@
 sitemap tcpexample label="TCP Test Example" {
 	Frame {
-		Group item= Gates label= "Gate" icon= "garagedoor"
+		Group item= Message label= "Message" icon=  "corridor"
 		//Group item= Gates label= "tcp message" icon= "car"
 		//Text item= rtcp 
 	}
